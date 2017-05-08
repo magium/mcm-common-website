@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<magiumConfiguration xmlns="http://www.magiumlib.com/Configuration">
+    <section identifier="website" label="Website" font-awesome="home">
+        <group identifier="general" label="General">
+            <element identifier="title" label="Title"/>
+            <element identifier="copyright_date" label="Copyright Date"/>
+            <element identifier="copyright_owner" label="Copyright Owner"/>
+        </group>
+        <group identifier="url" label="URLs">
+            <element identifier="base" label="Base URL"/>
+            <element identifier="cdn" label="CDN URL"/>
+        </group>
+        <group identifier="datetime" label="Date/Time">
+            <element identifier="timezone" label="Timezone" source="Magium\Configuration\Source\Datetime\Timezones"/>
+            <element identifier="locale" label="Locale" source="Magium\Configuration\Source\Datetime\Locales"/>
+        </group>
+        <group identifier="contact" label="Contact">
+            <element identifier="name" label="Name"/>
+            <element identifier="email" label="Email Address" type="email"/>
+            <element identifier="address" label="Address" type="textarea"/>
+        </group>
+    </section>
+</magiumConfiguration>

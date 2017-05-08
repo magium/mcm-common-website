@@ -1,0 +1,23 @@
+{
+  "name": "magium/mcm-common-website",
+  "description": "Some common website configuration options for use with the Magium Configuration Manager",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Kevin Schroeder",
+      "email": "kschroeder@magiumlib.com"
+    }
+  ],
+  "require": {
+    "magium/configuration-manager": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Magium\\Mcm\\Common\\Website\\": "src"
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
